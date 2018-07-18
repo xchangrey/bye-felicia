@@ -1,0 +1,73 @@
+
+
+ h1, h2, h3, h4, h5, .heading {
+ 	font-family: 'Dosis', sans-serif;
+ 	text-transform: uppercase;
+ }
+
+ h2 {
+    font-size: 2.56rem;
+}
+
+h4 {
+	font-size: 1.56rem;
+}
+
+ .banner {
+ 	background: #fff url("../assets/hero-img6.png") no-repeat 40% scroll / cover;
+ 	min-height: 600px;
+ }
+
+#staggered-test {
+  opacity: 0;
+}
+
+ .about {
+ 	min-height: 500px;
+ }
+
+ .break {
+ 	width:250px;
+ 	height: 3px;
+ }
+
+ i.material-icons--service {
+ 	font-size: 50px!important;
+ }
+
+
+ /* Form */
+
+   /* label color */
+   .input-field label {
+     color: #ba68c8;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label, .input-field input[type=email]:focus + label, .input-field textarea:focus + label {
+     color:#ba68c8!important;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus, .input-field input[type=email]:focus, .input-field textarea:focus {
+     border-bottom: 1px solid #ba68c8!important;
+     box-shadow: 0 1px 0 0 #ba68c8!important;
+   }
+   /* valid color */
+   .input-field input[type=text].valid, .input-field input[type=email].valid {
+     border-bottom: 1px solid ##ba68c8;
+     box-shadow: 0 1px 0 0 #ba68c8;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid, .input-field input[type=email].invalid {
+     border-bottom: 1px solid #212121;
+     box-shadow: 0 1px 0 0 #212121;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #ba68c8!important;
+   }
+
+
+
+
+
+/*# sourceMappingURL=main.css.map */
